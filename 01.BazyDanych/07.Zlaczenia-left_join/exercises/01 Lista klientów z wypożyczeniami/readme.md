@@ -1,0 +1,1 @@
+Wybierz listę klientów wraz z ich najnowszymi wypożyczeniami.

@@ -1,0 +1,1 @@
+Znajdź wszystkie tytuły filmów oraz odpowiadające im nazwy kategorii, uwzględniając zarówno filmy, jak i kategorie, które nie mają swojego odpowiednika.

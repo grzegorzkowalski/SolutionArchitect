@@ -1,0 +1,1 @@
+Zidentyfikuj klientów o dużej aktywności płatniczej w bazie Sakila. Zwróć ich identyfikatory, liczbę dokonanych płatności oraz sumę kwot tych płatności. Ogranicz wyniki do klientów, którzy dokonali co najmniej 30 płatności, a suma kwot ich płatności przekracza 200 jednostek. W tym zadaniu posłuż się tabelą payment.

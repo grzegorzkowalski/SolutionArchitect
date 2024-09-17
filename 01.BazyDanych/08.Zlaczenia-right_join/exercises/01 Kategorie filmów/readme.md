@@ -1,0 +1,1 @@
+Znajdź wszystkie kategorie filmów razem z informacjami o filmach w danej kategorii (jeśli takie istnieją). Dane znajdziesz w tabeli film_category, category oraz film.

@@ -1,0 +1,1 @@
+Chcemy uzyskać średnią długość filmów w każdej kategorii. W tym przypadku, pomimo że używamy jednej tabeli (film), wykorzystamy kolumnę category_id, która występuje w tej tabeli. Pamiętaj o posortowaniu malejąco względem średniej długości filmu.
