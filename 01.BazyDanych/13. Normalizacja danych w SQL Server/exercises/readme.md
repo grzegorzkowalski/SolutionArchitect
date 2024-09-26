@@ -15,21 +15,10 @@ Znormalizuj dane z tabeli CustomerOrders, tworząc odpowiednie tabele w formie t
 
 6. Tabela CustomerOrders (denormalizowana):
 
-OrderID	
-CustomerName	
-CustomerPhone	
-CustomerEmail	
-Address	
-ProductName	
-ProductPrice	
-Category	
-Quantity	
-Price	
-ShippingCost	
-OrderDate
+| OrderID | CustomerName | CustomerPhone | CustomerEmail     | Address                                    | ProductName | ProductPrice | Category   | Quantity | Discount | ShippingCost | OrderDate   |
+|---------|--------------|---------------|-------------------|--------------------------------------------|-------------|--------------|------------|----------|----------|--------------|-------------|
+| 1       | John Doe     | 123-456-789   | john@example.com  | ul. Przykładowa 1, 24-100 Warszawa, Poland | Laptop      | 1500         | Electronics| 1        | 100      | 50           | 2024-09-10  |
+| 2       | Jane Smith   | 987-654-321   | jane@example.com  | ul. Fikcyjna 5, 24-100 Warszawa, Poland    | Smartphone  | 800          | Electronics| 2        | 50       | 20           | 2024-09-11  |
+| 3       | John Doe     | 123-456-789   | john@example.com  | ul. Przykładowa 1, 24-100 Warszawa, Poland | Headphones  | 200          | Audio      | 1        | 10       | 5            | 2024-09-12  |
+| 4       | Jane Smith   | 987-654-321   | jane@example.com  | ul. Fikcyjna 5, 24-100 Warszawa, Poland    | Laptop      | 1500         | Electronics| 1        | 100      | 50           | 2024-09-13  |
 
-Przykładowe dane
-1	John Doe	123-456-789	john@example.com	ul. Przykładowa 1, 24-100 Warszawa, Poland	Laptop	    1500	Electronics	1	100	50	2024-09-10
-2	Jane Smith	987-654-321	jane@example.com	ul. Fikcyjna 5, 24-100 Warszawa, Poland	    Smartphone	800	    Electronics	2	50	20	2024-09-11
-3	John Doe	123-456-789	john@example.com	ul. Przykładowa, 24-100 Warszawa, Poland 1	Headphones	200	    Audio	    1	10	5	2024-09-12
-4	Jane Smith	987-654-321	jane@example.com	ul. Fikcyjna 5, 24-100 Warszawa, Poland	    Laptop	    1500	Electronics	1	100	50	2024-09-13
