@@ -22,11 +22,23 @@ W SQL utwórz schemat zawierający następujące informacje:
 
 Placówka: Identyfikator placówki, lokalizacja, godzina otwarcia.
 Lista czujników.
-Dzienna liczba odwiedzin: Data, liczba odwiedzin (osobno dla różnych rodzajów wizyt, np. liczba wejść/wyjść), ID placówki, ID czujnika.
+Dzienna liczba odwiedzin: Data, liczba odwiedzin (osobno dla różnych rodzajów wizyt, np. liczba wejść/wyjść, w kasie, w biurze kredytowym), ID placówki, ID czujnika.
 Raporty tygodniowe/miesięczne: Zestawienia sumaryczne na potrzeby analiz strategicznych.
 
 1. Zaprojektuj schemat bazy danych MongoDB.
-1. Możesz do tego wykorzystać narzędzie `https://studio.hackolade.com` lub zainstalowany MongoDB Compass.
+1. Możesz do tego wykorzystać narzędzie `https://studio.hackolade.com`, `draw.io` lub inne wybrane.
 1. Zaprojektuch schemar ERD dla bazy SQL.
 1. Możesz do tego wykorzystać narzędzie `https://erd-editor.io`, `https://studio.hackolade.com`, `draw.io` lub inne wybrane.
 
+#### Przygotuj przykładową bazę danych MongoDB
+1. Przygotuj przykładowy schemat bazy danych, skorzystaj z narzędzia `MongoDB Compass`.
+2. Dodaj indeksy jeśli uznasz, że są potrzebne.
+
+#### Przygotuj bazę danych SQL
+1. Dodaj odpowiednie tabele.
+2. Wybierz odpowiednie typy danych dla poszczególnych kolumn.
+3. Dodaj relacje i ograniczenia zgodnie z najlepszymi praktykami.
+4. Dodaj indeksy jeśli uznasz, że są potrzebne.
+5. Pamiętaj o normalizacji danych.
+6. Wyświetl listę wszystkich zamówień klientów z ich danymi oraz szczegółami zamówień.
+7. Wyświetl wszystkich klientów i produkty, które zamówili.
