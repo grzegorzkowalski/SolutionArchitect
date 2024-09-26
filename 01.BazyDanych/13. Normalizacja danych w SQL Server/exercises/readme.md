@@ -22,3 +22,5 @@ Znormalizuj dane z tabeli `CustomerOrder`, tworząc odpowiednie tabele w formie 
 | 3       | John Doe     | 123-456-789   | john@example.com  | ul. Przykładowa 1, 24-100 Warszawa, Poland | Headphones  | 200          | Audio      | 1        | 10       | 5            | 2024-09-12  |
 | 4       | Jane Smith   | 987-654-321   | jane@example.com  | ul. Fikcyjna 5, 24-100 Warszawa, Poland    | Laptop      | 1500         | Electronics| 1        | 100      | 50           | 2024-09-13  |
 
+7. Wyświetl listę wszystkich zamówień klientów z ich danymi oraz szczegółami zamówień.
+8. Wyświetl wszystkich klientów i produkty, które zamówili.

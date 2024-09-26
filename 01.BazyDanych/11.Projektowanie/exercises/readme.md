@@ -40,5 +40,3 @@ Raporty tygodniowe/miesięczne: Zestawienia sumaryczne na potrzeby analiz strate
 3. Dodaj relacje i ograniczenia zgodnie z najlepszymi praktykami.
 4. Dodaj indeksy jeśli uznasz, że są potrzebne.
 5. Pamiętaj o normalizacji danych.
-6. Wyświetl listę wszystkich zamówień klientów z ich danymi oraz szczegółami zamówień.
-7. Wyświetl wszystkich klientów i produkty, które zamówili.
