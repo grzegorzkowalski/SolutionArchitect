@@ -1,7 +1,7 @@
 ﻿## Normalizacja
 
 1. Masz poniższą tabelę `CustomerOrder`, która przechowuje zamówienia klientów, 
-jednak tabela ta zawiera zduplikowane informacje, co prowadzi do redundancji. 
+jednak tabela ta zawiera zduplikowane informacje, wieloczęściowe pola, co prowadzi do redundancji. 
 2. Twoim zadaniem będzie znormalizowanie tej tabeli, eliminując nadmiarowość i tworząc odpowiednie relacje.
 3. Pamiętaj o ustaleniu odpowiednich typów danych dla poszczególnych kolumn.
 
@@ -11,9 +11,9 @@ Informacje o produktach są zduplikowane.
 Redundancja danych może prowadzić do niezgodności (np. zmiana numeru telefonu dla jednego zamówienia, ale nie dla innych).
 
 5. Zadanie:
-Znormalizuj dane z tabeli CustomerOrders, tworząc odpowiednie tabele w formie trzeciej postaci normalnej (3NF).
+Znormalizuj dane z tabeli `CustomerOrder`, tworząc odpowiednie tabele w formie trzeciej postaci normalnej (3NF).
 
-6. Tabela CustomerOrders (denormalizowana):
+6. Tabela `CustomerOrder` (denormalizowana):
 
 | OrderID | CustomerName | CustomerPhone | CustomerEmail     | Address                                    | ProductName | ProductPrice | Category   | Quantity | Discount | ShippingCost | OrderDate   |
 |---------|--------------|---------------|-------------------|--------------------------------------------|-------------|--------------|------------|----------|----------|--------------|-------------|
