@@ -1,7 +1,7 @@
 import React, {useEffect, useState} from 'react';
 
-const StrobeLight = (props) => {
-    const [color, setColor] = useState(props.color);
+const StrobeLight = ({color: bgColor, frequency}) => {
+    const [color, setColor] = useState(bgColor);
 
     const styles = {
         width: "100px",
@@ -12,9 +12,9 @@ const StrobeLight = (props) => {
     useEffect(() => {
         const id = setInterval(() => {
             setColor(prevState => {
-                return prevState === 'white' ? props.color : 'white';
+                return prevState === 'white' ? color : 'white';
             })
-        }, props.frequency);
+        }, frequency);
 
         return () => window.localStorage.clear();
     }, []);

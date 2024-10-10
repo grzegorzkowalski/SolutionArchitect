@@ -4,6 +4,7 @@ import ShopList from './components/Chapter_06/ShopList';
 import Box from './components/Chapter_07/Box';
 import './App.css';
 import StrobeLight from './components/Chapter_07/StrobeLight';
+import TextTyper from "./components/Chapter_08/TextTyper.jsx";
 
 function App() {
   // const numA = parseInt(prompt('Podaj liczbę A?'));
@@ -60,9 +61,10 @@ function App() {
       <CurrencyConverter from="USD" to="PLN" value={200} rate={4} />
       <ShopList />
       <Box />
-      <StrobeLight color="deeppink" frequency={500} />
-      <StrobeLight color="magenta" frequency={150} />
-      <StrobeLight color="black" frequency={50} />
+      <StrobeLight color="deeppink" frequency={500} name="Grzegorz" />
+      {/*<StrobeLight color="magenta" frequency={150} />*/}
+      {/*<StrobeLight color="black" frequency={50} />*/}
+      <TextTyper text="Witaj!" />
     </>
   )}
 
