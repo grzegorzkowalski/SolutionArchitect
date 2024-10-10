@@ -1,5 +1,7 @@
 import Search from './components/Chapter_04/Search'
 import CurrencyConverter from './components/Chapter_05/CurrencyConverter'
+import ShopList from './components/Chapter_06/ShopList'
+import Box from './components/Chapter_07/Box'
 import './App.css'
 
 function App() {
@@ -55,6 +57,8 @@ function App() {
       <CurrencyConverter from="EUR" to="USD" value={200} rate={1.12275} />
       <CurrencyConverter from="PLN" to="EUR" value={200} rate={0.25} />
       <CurrencyConverter from="USD" to="PLN" value={200} rate={4} />
+      <ShopList />
+      <Box />
     </>
   )}
 
