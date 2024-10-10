@@ -1,8 +1,9 @@
-import Search from './components/Chapter_04/Search'
-import CurrencyConverter from './components/Chapter_05/CurrencyConverter'
-import ShopList from './components/Chapter_06/ShopList'
-import Box from './components/Chapter_07/Box'
-import './App.css'
+import Search from './components/Chapter_04/Search';
+import CurrencyConverter from './components/Chapter_05/CurrencyConverter';
+import ShopList from './components/Chapter_06/ShopList';
+import Box from './components/Chapter_07/Box';
+import './App.css';
+import StrobeLight from './components/Chapter_07/StrobeLight';
 
 function App() {
   // const numA = parseInt(prompt('Podaj liczbę A?'));
@@ -59,6 +60,9 @@ function App() {
       <CurrencyConverter from="USD" to="PLN" value={200} rate={4} />
       <ShopList />
       <Box />
+      <StrobeLight color="deeppink" frequency={500} />
+      <StrobeLight color="magenta" frequency={150} />
+      <StrobeLight color="black" frequency={50} />
     </>
   )}
 
